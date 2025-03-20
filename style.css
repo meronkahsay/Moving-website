@@ -1,3 +1,254 @@
+/* Tablet devices (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .contact-information {
+        gap: 40%;
+        margin-left: 5%;
+    }
+
+    nav {
+        margin-left: 5%;
+        gap: 4%;
+    }
+
+    .overlay-text {
+        padding: 8%;
+    }
+
+    .first-bigtext {
+        margin-left: 10%;
+        width: 80%;
+        font-size: 60px;
+    }
+
+    .movingwith {
+        margin-left: 5%;
+        flex-direction: column;
+    }
+
+    .image-with-border {
+        width: 80%;
+    }
+
+    .outline {
+        padding: 30% 20%;
+        right: 2%;
+        top: 2%;
+        width: 30%;
+    }
+
+    .logo {
+        margin-left: 5%;
+        gap: 5%;
+    }
+
+    .logo img {
+        width: 15%;
+    }
+
+    .icons {
+        margin-left: 5%;
+        gap: 5%;
+        flex-wrap: wrap;
+    }
+
+    .icons img {
+        width: 40%;
+    }
+
+    .blue-imgbackground {
+        width: 20%;
+    }
+
+    .three-align-container {
+        margin-left: 5%;
+        flex-direction: column;
+    }
+
+    .blue-backgroundimg-withtext {
+        margin-left: 5%;
+        flex-direction: column;
+    }
+
+    .blue-background {
+        width: 80%;
+    }
+
+    .text-nextto-bluebg {
+        width: 80%;
+    }
+
+    .video-and-form {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .yellow-box {
+        width: 50%;
+    }
+
+    .form input {
+        width: 100%;
+    }
+
+    .left-form input {
+        width: 100%;
+    }
+
+    .right-form {
+        margin-left: 15%;
+    }
+
+    .quote-list {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .signup-form input {
+        width: 40%;
+    }
+
+    .signup-form button {
+        width: 20%;
+    }
+
+    .blog-images {
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .footer {
+        padding-left: 5%;
+        gap: 5%;
+        flex-wrap: wrap;
+    }
+}
+
+/* Mobile devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: medium;
+    }
+
+    header {
+        padding: 1%;
+    }
+
+    .contact-information {
+        flex-direction: column;
+        gap: 5%;
+        margin-left: 2%;
+    }
+
+    nav {
+        flex-direction: column;
+        margin-left: 2%;
+        gap: 2%;
+    }
+
+    .overlay-text {
+        padding: 5%;
+    }
+
+    .first-bigtext {
+        font-size: 40px;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .yellow-button {
+        padding: 1% 2%;
+    }
+
+    .make-bigtext {
+        font-size: 30px;
+    }
+
+    .logo img {
+        width: 20%;
+    }
+
+    .icons {
+        flex-direction: column;
+        margin-left: 2%;
+    }
+
+    .blue-imgbackground {
+        width: 40%;
+    }
+
+    .third-icon {
+        width: 30%;
+    }
+
+    .blue-background {
+        width: 90%;
+    }
+
+    .text-nextto-bluebg {
+        width: 90%;
+    }
+
+    .middle-sizedparagraph {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .whitebox-insideimage {
+        width: 30%;
+        height: 15%;
+        padding: 1%;
+    }
+
+    .big-fontsize {
+        font-size: 20px;
+    }
+
+    .video-and-form {
+        width: 95%;
+    }
+
+    .yellow-box {
+        padding: 3% 4% 4%;
+        width: 100%;
+    }
+
+    .yellow-box p {
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    .form {
+        flex-direction: column;
+        padding: 3%;
+    }
+
+    .right-form {
+        margin-left: 0;
+    }
+
+    .right-form button {
+        width: 100%;
+        padding: 4%;
+    }
+
+    .signup-form input {
+        width: 60%;
+    }
+
+    .signup-form button {
+        width: 30%;
+    }
+
+    .yellowfooter {
+        padding: 2% 5% 3%;
+    }
+
+    #black-button {
+        width: 30%;
+        padding: 2%;
+    }
+}
 body {
     font-size: larger;
 }
