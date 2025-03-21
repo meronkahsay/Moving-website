@@ -250,6 +250,7 @@
     }
 }
 body {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
 }
 
@@ -316,6 +317,7 @@ nav {
     width: 60%;
     font-size: 110px;
     margin-top: 3%;
+  
 }
 
 .yellow-button {
@@ -323,6 +325,7 @@ nav {
     background-color: #F7B500;
     border: none;
     font-size: large;
+    color: white;
 }
 
 .movingwith {
@@ -392,12 +395,17 @@ nav {
 }
 
 .icons img {
+    margin-top: 17%;
     width: 50%;
 }
 
 .blue-imgbackground {
     width: 15%;
     background-color: #6495ED;
+}
+.blue-imgbackground img{
+    width: 45%;
+    border-radius: 70px;
 }
 
 .three-align-container {
@@ -703,4 +711,29 @@ footer {
     top: 480%;
     left: 50%;
     width: 30%;
+}
+#linetext
+{
+    color: aqua;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5cm;
+    font-size: larger;
+    padding-left: 4cm;
+    padding-right: 2cm;
+}
+#linetext:before
+{
+content:"";
+flex: 1 1;
+border-bottom: 1px solid black;
+margin: auto;
+color: rgb(10, 133, 133);
+}
+line_arrow
+{
+border: solid ;
+padding: 0.3cm;
+border-radius: 15cm;
 }
